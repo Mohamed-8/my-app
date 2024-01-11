@@ -21,6 +21,7 @@ return(
   <main className='apidatas'>
     <div className='apititle'>
       <h1 className='apihead'>API Data</h1>
+      <br/>
       <table className='tabledata'>
           <thead>
             <tr>
@@ -35,7 +36,7 @@ return(
 
           <tbody> 
               {Datas.map((a) => (
-                  <tr>
+                  <tr key={a.id}>
                    <td> {a.name}</td>
                    <td>{a.username}</td>
                    <td>{a.email}</td>
