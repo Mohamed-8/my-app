@@ -1,0 +1,30 @@
+.__className_e66fe9{
+    background-color: #e3e3f0;
+}
+.routing{
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.apidatas{
+    display: flex;
+    justify-content: center;
+}
+.apihead{
+    text-align: center;
+}
+.apititle{
+    margin: 25px;
+}
+.tabledata th, .tabledata tr{
+    border: 1px solid #ddf;
+}
+.tabledata tbody tr td{
+    border: 1px solid #ddf;
+    padding: 8px;
+}
+
+
