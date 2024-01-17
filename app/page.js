@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import "../public/home.css"
 
 export default function Home() {
