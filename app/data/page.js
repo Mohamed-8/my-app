@@ -13,7 +13,7 @@ export default function MyApiCall()  {
             }).catch(function(error) {
                 console.log(error);
             });
-        }, [])
+        })
         console.log(Datas);
 
 return(
@@ -24,6 +24,7 @@ return(
       <table className='tabledata'>
           <thead>
             <tr>
+              <th>Id</th>
               <th>Name</th>
               <th>User Name</th>
               <th>Email Id</th>
@@ -35,7 +36,8 @@ return(
 
           <tbody> 
               {Datas.map((a) => (
-                  <tr>
+                  <tr key={a.id}>
+                    <td>{a.id}</td>
                    <td> {a.name}</td>
                    <td>{a.username}</td>
                    <td>{a.email}</td>
@@ -51,4 +53,3 @@ return(
  </>
  )
 }
-// export default MyApiCall
