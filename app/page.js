@@ -1,11 +1,11 @@
-import "../public/home.css"
+import "../public/home.css";
 
 export default function Home() {
   return (
-      <main>
-        <div className='parallelhead'>
-          <h1>Parallel Routing</h1>
-        </div>
-      </main>
-  )
+    <main>
+      <div className="parallelhead">
+        <h1>Parallel Routing</h1>
+      </div>
+    </main>
+  );
 }
