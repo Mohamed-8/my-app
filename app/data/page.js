@@ -12,7 +12,7 @@ export default function MyApiCall() {
         setDatas(response.data);
         console.log(Datas);
       })
-      .catch(function (error) {           
+      .catch(function (error) {
         console.log(error);
       });
   });
